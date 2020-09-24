@@ -12,6 +12,7 @@ class Main
         logger.log(Level.INFO,"Result {0}.", result);
     }
 
+    
     // prints a patter on the screen 
     public void pattern1()
     {
@@ -24,6 +25,7 @@ class Main
             System.out.print('\n');
         }
     }
+
 
     // Take length & breadth of a rectangle and check 
     // whether it is a square or not 
@@ -65,12 +67,15 @@ class Main
         }
     }
 
+
     public void pattern3()
     {
         for (int i = 0; i <= 3; i++) {
             for (int j = 0; j < i; j++) {
                 System.out.print(' ');
             }
+
+            
             for (int k = 0; k < (3-i) * 2 + 1; k++)
             {
                 if (k % 2 == 0)
@@ -85,6 +90,8 @@ class Main
             System.out.println();
         }
     }
+
+
     public static void main(String[] args) {
         Main main = new Main(); 
         
